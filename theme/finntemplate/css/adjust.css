@@ -1,0 +1,503 @@
+/**********************************************/
+/**********************************************/
+/*                                            */
+/*                                            */
+/*               ADJUST CSS 1.1               */
+/*              by Kevin Finnegan             */
+/*                                            */
+/*   Optimized styling, removed unnecessary   */
+/*   elements, added responsive IE8 support   */
+/*      Fixed unresponsive sidebar issue      */
+/*                                            */
+/**********************************************/
+/**********************************************/
+
+
+/************************************/
+/* FLOAT ATTRIBUTES                 */
+/************************************/
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+
+/************************************/
+/* SIMPLISTIC PAGE DISPLAYS         */
+/************************************/
+.show-block{
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.fadeOut{
+    opacity: 0;
+}
+
+
+/************************************/
+/* REOCCURRING DIV STYLING          */
+/************************************/
+.like-tablecell-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/************************************/
+/* TABLET/DESKTOP SCREEN SIZING     */
+/************************************/
+@media only screen and (min-width : 1281px) {
+/* When screen is larger than a tablet... */
+
+	body{
+		font-size: 24px;
+	}
+	
+	h1{
+		font-size: 42px;
+	}
+	
+	#horizon-logo {
+		margin: 0 0 0 20px;
+	}
+	
+	.jumbo-description {
+		width: 60%;
+		position: absolute; bottom: 15%;
+		box-shadow: 3px 5px 10px #333;
+	}
+	
+	.skinnytron {
+		width: 90%;
+		box-shadow: 1px 2px 5px #666;
+	}
+	
+	.skinny-description {
+		width: 100%;
+		position: absolute; bottom: 0;
+		box-shadow: 0px -1px 10px #333;
+	}
+	
+	.options-icon{
+		top: -1.5em;
+	}
+}
+
+@media only screen and (min-width : 1220px) {
+    #navibar {
+        display:block;
+    }
+
+    #side-button {
+        display:none;
+    }
+}
+
+@media only screen and (min-width : 720px) {
+/* When screen is tablet size or larger... */
+	
+	#side-button img{
+		height: 65px;
+		width: auto;
+	}
+	
+	#header, #side-header, #horizon-logo img, #side-button {
+		height: 125px;
+		width: auto;
+	}
+	
+	#container {
+		top:125px;
+	}
+	
+	#horizon-logo {
+		float: left;
+	}
+
+	#side-header {
+		text-align: center;
+	}
+	
+	#side-header img{
+		height: 123px;
+		width: auto;
+	}
+	
+	#sidebar li {
+		height: 100px;
+	}
+	
+	#navibar img, #sidebar img {
+		height: 65px;
+		width: 65px;
+		background-size: 65px 65px;
+	}
+	
+	#sidebar img {
+		margin: 15px 0 0 0;
+	}
+	
+	#sidebar span {
+		margin: 35px 0 0 10px;
+		font-size: 20px;
+	}
+	
+	#container p, #container ul,  #container ol, #container pre,  #container h1, #container h2,
+	#container h3, #container h4, #container h5, #container blockquote{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#ewi-price-table {
+		width: 50%;
+		margin-left: 5%;
+		margin-right: 2%;
+	}
+	
+	#ewi-price-table td, #ewi-price-table th {
+		padding: 20px 5px;
+	}
+	
+	.skinnytron p, .skinnytron ul,  .skinnytron h1, .skinnytron h2 {
+		width: 100%;
+	}
+	
+	.big-icon{
+		height: 96px;
+		width: auto;
+	}
+	
+	.jumbo-description img {
+		width: auto;
+		min-height: initial;
+		position: relative; 
+		top: 0.3em;
+	}
+
+}
+
+
+/************************************/
+/* MOBILE SCREEN SIZING             */
+/************************************/
+@media only screen and (max-width : 1280px) {
+/* When screen is tablet size or smaller... */
+	
+	h1{
+		font-size: 36px;
+	}
+	
+	body{
+		font-size: 20px;
+	}
+	
+	.jumbo-description {
+		width: 80%;
+		position: absolute; bottom: 15%;
+		box-shadow: 3px 5px 10px #333;
+	}
+	
+	.skinnytron {
+		width: 95%;
+		box-shadow: 1px 2px 5px #666;
+	}
+	
+	.skinny-description {
+		width: 100%;
+		position: absolute; bottom: 0;
+	}
+	
+	.options-icon{
+		top: -3em;
+	}
+	
+}
+
+@media only screen and (max-width : 1219px) {
+    #navibar {
+        display:none;
+    }
+
+    #side-button img {
+        display:block;
+		margin: 30px 0 0 15px;
+    }
+	
+	#horizon-logo {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	#header, #horizon-logo img, #side-button {
+		text-align: center;
+		width: auto;
+	}
+}
+
+@media only screen and (min-width : 720px) and (max-width : 870px) {
+/* When screen is a medium sized tablet... */
+    
+	#side-button img {
+		margin: 15px 0 0 15px;
+    }
+	
+	#horizon-logo {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	#header, #horizon-logo img, #side-button {
+		height: 100px;
+		text-align: center;
+		width: auto;
+	}
+	
+	#container {
+		top:100px;
+	}
+	
+	#side-header {
+		text-align: left;
+		height:100px;
+	}
+	
+	#side-header img{
+		height: 98px;
+		width: auto;
+		margin-left: 15px;
+	}
+	
+	.jumbotron img {
+		min-height: 300px;
+	}
+	
+	.jumbo-description {
+		width: 100%;
+		position: relative; bottom: 0;
+		box-shadow: 1px 2px 5px #666;
+	}
+	
+	.jumbo-description img {
+		height: auto;
+		width: auto;
+		min-height: initial;
+		position: relative; 
+		top: 0.5em;
+	}
+	
+	.skinny-description {
+		width: 100%;
+		position: relative; bottom: 0;
+
+	}
+	
+	
+	.options-description {
+		box-shadow: 1px 2px 5px #666;
+	}
+}
+
+@media only screen and (max-width : 719px) {
+/* When screen is smaller than a tablet (large phone)... */
+	
+	h1{
+		font-size: 32px;
+	}
+	
+	body{
+		font-size: 16px;
+	}	
+	
+    #side-button img{
+		margin: 15px 0 0 0;
+    }
+	
+	#side-button img{
+		margin: 15px 0 0 10px;
+		height: 45px;
+		width: auto;
+	}
+	
+	#header, #side-header, #horizon-logo img, #side-button {
+		height: 75px;
+		width: auto;
+	}
+	
+	#container {
+		top:75px;
+	}
+	
+	#horizon-logo {
+		float: right;
+	}
+	
+	#side-header {
+		text-align: left;
+	}
+	
+	#side-header img{
+		margin-left: 15px;
+		height: 73px;
+		width: auto;
+	}
+	
+	#sidebar li {
+		height: 70px;
+	}
+	
+	#sidebar span {
+		margin: 25px 0 0 10px;
+		font-size: 18px;
+	}
+	
+	#navibar img, #sidebar img  {
+		height: 48px;
+		width: 48px;
+		background-size: 48px 48px;
+	}
+	
+	#sidebar img {
+		margin: 12px 0 0 0;
+	}
+	
+	#container p, #container ul,  #container ol, #container pre,  #container h1, #container h2,
+	#container h3, #container h4, #container h5, #container blockquote{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#ewi-price-table {
+		width: 95%;
+		margin-left: 2.5%;
+		text-align: center;
+	}
+	
+	#ewi-price-table td, #ewi-price-table th {
+		padding: 10px 5px;
+	}
+	
+	.skinnytron p, .skinnytron ul,  .skinnytron h1, .skinnytron h2 {
+		width: 100%;
+	}
+	
+	.jumbotron img{
+		height: 300px;
+	}
+	
+	.jumbo-description {
+		width: 100%;
+		position: relative; bottom: 0;
+		box-shadow: 1px 2px 5px #666;
+	}
+	
+	.jumbo-description img {
+		width: auto;
+		height: auto;
+		min-height: initial;
+		position: relative; 
+		top: 0.4em;
+	}
+	
+	.skinny-description {
+		width: 100%;
+		position: relative; bottom: 0;
+	}
+	
+	.big-icon{
+		height: 76px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width : 540px) {
+/* When screen is a medium smartphone... */
+	h1{
+		font-size: 28px;
+	}
+
+	#horizon-logo {
+		margin: 10px 0 0 0;
+	}
+
+	#horizon-logo img {
+		height: 65px;
+		width: auto;
+	}
+	
+	.skinnytron {
+		width: 95%;
+	}
+	
+	.skinny-description {
+		width: 100%;
+		position: relative; bottom: 0;
+	}
+	
+	.jumbo-description {
+		text-align: center;
+	}
+	
+	.jumbo-description img {
+		margin: auto auto;
+		height: 65px;
+		width: auto;
+		display: block;
+		min-height: initial;
+		clear: both;
+		top: 0em;
+	}
+}
+
+@media only screen and (max-width : 440px) {
+/* When screen is a small/medium smartphone... */
+	#horizon-logo {
+		margin: 10px 10px 0 0;
+	}
+
+	#build-serv-logo {
+		display: none;
+	}
+	
+	.jumbotron img{
+		height: 200px;
+	}
+	
+	.jumbo-description img {
+		margin: auto auto;
+		height: 65px;
+		width: auto;
+		display: block;
+		min-height: initial;
+		clear: both;
+		top: 0em;
+	}
+	
+	.jumbo-description {
+		width: 100%;
+		position: relative; bottom: 0;
+	}
+	
+	.skinny-description {
+		width: 100%;
+		position: relative; bottom: 0;
+	}
+	
+	.h1-icon{
+		padding-bottom: 10px;
+	}
+}
+
+.options-grid p, .options-grid pre, .options-grid ul, .options-grid ol, .options-grid h1, 
+.options-grid h2, .options-grid h3, .options-grid h4 {
+	width: 100%;
+	margin: auto auto;
+	color: white;
+}

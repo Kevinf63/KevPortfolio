@@ -1,0 +1,55 @@
+@import url("http://yui.yahooapis.com/pure/0.5.0/pure-min.css");
+@import url("css/general.css");
+@import url("css/adjust.css");
+@import url("js/styles/default.css");
+
+/************************************/
+/* CKEDITOR BASIC LAYOUT            */
+/************************************/
+.cke_show_borders {
+    overflow: scroll;
+}
+
+.CodeMirror-lines {
+    overflow-y: scroll; // vertical scrollbar
+}
+
+html {
+    position:relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height:100%;
+	width: 100%;
+}
+
+body {
+    position:inherit;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    height:inherit;
+	width: inherit;
+	background-image: url('/kevportfolio/theme/finntemplate/images/noise_pale.jpg');
+}
+
+@media only screen and (min-width : 720px) {
+/* When screen is tablet size or larger... */
+	
+	p, ul, ol, pre, h1, h2,
+	h3, h4, h5, blockquote, pre{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
+
+@media only screen and (max-width : 719px) {
+/* When screen is smaller than a tablet (large phone)... */
+	
+	p, ul, ol, pre, h1, h2,
+	h3, h4, h5, blockquote, pre{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

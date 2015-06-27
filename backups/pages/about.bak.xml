@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Thu, 25 Jun 2015 12:23:19 +0100</pubDate><title><![CDATA[About]]></title><url><![CDATA[about]]></url><meta></meta><metad></metad><menu><![CDATA[About]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent></parent><content><![CDATA[&lt;h1&gt;Testing display of HTML elements&lt;/h1&gt;
+
+&lt;h2&gt;This is 2nd level heading&lt;/h2&gt;
+
+&lt;p&gt;This is a test paragraph.&lt;/p&gt;
+
+&lt;h3&gt;This is 3rd level heading&lt;/h3&gt;
+
+&lt;p&gt;This is a test paragraph.&lt;/p&gt;
+
+&lt;h4&gt;This is 4th level heading&lt;/h4&gt;
+
+&lt;p&gt;This is a test paragraph.&lt;/p&gt;
+
+&lt;h5&gt;This is 5th level heading&lt;/h5&gt;
+
+&lt;p&gt;This is a test paragraph.&lt;/p&gt;
+
+&lt;h6&gt;This is 6th level heading&lt;/h6&gt;
+
+&lt;p&gt;This is a test paragraph.&lt;/p&gt;
+
+&lt;h2&gt;Basic block level elements&lt;/h2&gt;
+
+&lt;p&gt;This is a normal paragraph (&lt;dfn&gt;p&lt;/dfn&gt; element). To add some length to it, let us mention that this page was primarily written for testing the effect of &lt;strong&gt;user style sheets&lt;/strong&gt;. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.&lt;/p&gt;
+
+&lt;p&gt;This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.&lt;/p&gt;
+
+&lt;div&gt;This is a &lt;dfn&gt;div&lt;/dfn&gt; element. Authors may use such elements instead of paragraph markup for various reasons. (End of &lt;dfn&gt;div&lt;/dfn&gt;.)&lt;/div&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;This is a block quotation containing a single paragraph. Well, not quite, since this is not &lt;em&gt;really&lt;/em&gt; quoted text, but I hope you understand the point. After all, this page does not use HTML markup very normally anyway.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The following contains address information about the author, in an &lt;dfn&gt;address&lt;/dfn&gt; element.&lt;/p&gt;
+
+&lt;address&gt;&lt;a href=&quot;../personal.html&quot; hreflang=&quot;en&quot; lang=&quot;fi&quot;&gt;Jukka Korpela&lt;/a&gt;, &lt;a href=&quot;mailto:jkorpela@cs.tut.fi&quot;&gt;jkorpela@cs.tut.fi&lt;/a&gt;&lt;br /&gt;
+Päivänsäteenkuja 4 A, Espoo, Finland&lt;/address&gt;
+
+&lt;h2&gt;Lists&lt;/h2&gt;
+
+&lt;p&gt;This is a paragraph before an &lt;strong&gt;unnumbered&lt;/strong&gt; list (&lt;dfn&gt;ul&lt;/dfn&gt;). Note that the spacing between a paragraph and a list before or after that is hard to tune in a user style sheet. You can&#039;t guess which paragraphs are logically related to a list, e.g. as a &quot;list header&quot;.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;One.&lt;/li&gt;
+	&lt;li&gt;Two.&lt;/li&gt;
+	&lt;li&gt;Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items.&lt;/li&gt;
+	&lt;li&gt;Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following is a &lt;dfn&gt;menu&lt;/dfn&gt; list:&lt;/p&gt;
+
+&lt;menu&gt;
+&lt;li&gt;One.&lt;/li&gt;
+&lt;li&gt;Two.&lt;/li&gt;
+&lt;li&gt;Three. Well, probably this list item should be longer so that it will probably wrap to the next line in rendering.&lt;/li&gt;
+&lt;/menu&gt;
+
+&lt;p&gt;The following is a &lt;dfn&gt;dir&lt;/dfn&gt; list:&lt;/p&gt;
+
+&lt;dir&gt;
+	&lt;li&gt;One.&lt;/li&gt;
+	&lt;li&gt;Two.&lt;/li&gt;
+	&lt;li&gt;Three. Well, probably this list item should be longer so that it will probably wrap to the next line in rendering.&lt;/li&gt;
+&lt;/dir&gt;
+
+&lt;p&gt;This is a paragraph before a &lt;strong&gt;numbered&lt;/strong&gt; list (&lt;dfn&gt;ol&lt;/dfn&gt;). Note that the spacing between a paragraph and a list before or after that is hard to tune in a user style sheet. You can&#039;t guess which paragraphs are logically related to a list, e.g. as a &quot;list header&quot;.&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;One.&lt;/li&gt;
+	&lt;li&gt;Two.&lt;/li&gt;
+	&lt;li&gt;Three. Well, probably this list item should be longer. Note that if items are short, lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items.&lt;/li&gt;
+	&lt;li&gt;Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a paragraph before a &lt;strong&gt;definition&lt;/strong&gt; list (&lt;dfn&gt;dl&lt;/dfn&gt;). In principle, such a list should consist of &lt;em&gt;terms&lt;/em&gt; and associated definitions. But many authors use &lt;dfn&gt;dl&lt;/dfn&gt; elements for fancy &quot;layout&quot; things. Usually the effect is not &lt;em&gt;too&lt;/em&gt; bad, if you design user style sheet rules for &lt;dfn&gt;dl&lt;/dfn&gt; which are suitable for real definition lists.&lt;/p&gt;
+
+&lt;dl&gt;
+	&lt;dt&gt;recursion&lt;/dt&gt;
+	&lt;dd&gt;see recursion&lt;/dd&gt;
+	&lt;dt&gt;recursion, indirect&lt;/dt&gt;
+	&lt;dd&gt;see indirect recursion&lt;/dd&gt;
+	&lt;dt&gt;indirect recursion&lt;/dt&gt;
+	&lt;dd&gt;see recursion, indirect&lt;/dd&gt;
+	&lt;dt&gt;term&lt;/dt&gt;
+	&lt;dd&gt;a word or other expression taken into specific use in a well-defined meaning, which is often defined rather rigorously, even formally, and may differ quite a lot from an everyday meaning&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2&gt;Text-level markup&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; (an abbreviation; &lt;dfn&gt;abbr&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;acronym title=&quot;radio detecting and ranging&quot;&gt;radar&lt;/acronym&gt; (an acronym; &lt;dfn&gt;acronym&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;bolded&lt;/b&gt; (&lt;dfn&gt;b&lt;/dfn&gt; markup used - just bolding with unspecified semantics)&lt;/li&gt;
+	&lt;li&gt;&lt;big&gt;big thing&lt;/big&gt; (&lt;dfn&gt;big&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;font size=&quot;6&quot;&gt;large size&lt;/font&gt; (&lt;dfn&gt;font size=6&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;font face=&quot;Courier&quot;&gt;Courier font&lt;/font&gt; (&lt;dfn&gt;font face=Courier&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;font color=&quot;red&quot;&gt;red text&lt;/font&gt; (&lt;dfn&gt;font color=red&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;cite&gt;Origin of Species&lt;/cite&gt; (a book title; &lt;code&gt;cite&lt;/code&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;a[i] = b[i] + c[i);&lt;/code&gt; (computer code; &lt;dfn&gt;code&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;here we have some &lt;del&gt;deleted&lt;/del&gt; text (&lt;dfn&gt;del&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;an &lt;dfn&gt;octet&lt;/dfn&gt; is an entity consisting of eight bits (&lt;dfn&gt;dfn&lt;/dfn&gt; markup used for the term being defined)&lt;/li&gt;
+	&lt;li&gt;this is &lt;em&gt;very&lt;/em&gt; simple (&lt;dfn&gt;em&lt;/dfn&gt; markup used for emphasizing a word)&lt;/li&gt;
+	&lt;li&gt;&lt;i lang=&quot;la&quot;&gt;Homo sapiens&lt;/i&gt; (should appear in italics; &lt;dfn&gt;i&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;here we have some &lt;ins&gt;inserted&lt;/ins&gt; text (&lt;dfn&gt;ins&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;type &lt;kbd&gt;yes&lt;/kbd&gt; when prompted for an answer (&lt;dfn&gt;kbd&lt;/dfn&gt; markup used for text indicating keyboard input)&lt;/li&gt;
+	&lt;li&gt;&lt;q&gt;Hello!&lt;/q&gt; (&lt;dfn&gt;q&lt;/dfn&gt; markup used for quotation)&lt;/li&gt;
+	&lt;li&gt;He said: &lt;q&gt;She said &lt;q&gt;Hello!&lt;/q&gt;&lt;/q&gt; (a quotation inside a quotation)&lt;/li&gt;
+	&lt;li&gt;you may get the message &lt;samp&gt;Core dumped&lt;/samp&gt; at times (&lt;dfn&gt;samp&lt;/dfn&gt; markup used for sample output)&lt;/li&gt;
+	&lt;li&gt;&lt;small&gt;this is not that important&lt;/small&gt; (&lt;dfn&gt;small&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;strike&gt;overstruck&lt;/strike&gt; (&lt;dfn&gt;strike&lt;/dfn&gt; markup used; note: &lt;dfn&gt;s&lt;/dfn&gt; is a nonstandard synonym for &lt;dfn&gt;strike&lt;/dfn&gt;)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;this is highlighted text&lt;/strong&gt; (&lt;dfn&gt;strong&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;In order to test how subscripts and superscripts (&lt;dfn&gt;sub&lt;/dfn&gt; and &lt;dfn&gt;sup&lt;/dfn&gt; markup) work inside running text, we need some dummy text around constructs like x&lt;sub&gt;1&lt;/sub&gt; and H&lt;sub&gt;2&lt;/sub&gt;O (where subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M&lt;sup&gt;lle&lt;/sup&gt;, 1&lt;sup&gt;st&lt;/sup&gt;, and then some mathematical notations: e&lt;sup&gt;x&lt;/sup&gt;, sin&lt;sup&gt;2&lt;/sup&gt; &lt;i&gt;x&lt;/i&gt;, and some nested superscripts (exponents) too: e&lt;sup&gt;x&lt;sup&gt;2&lt;/sup&gt;&lt;/sup&gt; and f(x)&lt;sup&gt;g(x)&lt;sup&gt;a+b+c&lt;/sup&gt;&lt;/sup&gt; (where 2 and a+b+c should appear as exponents of exponents).&lt;/li&gt;
+	&lt;li&gt;&lt;tt&gt;text in monospace font&lt;/tt&gt; (&lt;dfn&gt;tt&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;&lt;u&gt;underlined&lt;/u&gt; text (&lt;dfn&gt;u&lt;/dfn&gt; markup used)&lt;/li&gt;
+	&lt;li&gt;the command &lt;dfn&gt;cat&lt;/dfn&gt; &lt;var&gt;filename&lt;/var&gt; displays the file specified by the &lt;var&gt;filename&lt;/var&gt; (&lt;dfn&gt;var&lt;/dfn&gt; markup used to indicate a word as a variable).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of the elements tested above are typically displayed in a monospace font, often using the &lt;em&gt;same&lt;/em&gt; presentation for all of them. This tests whether that is the case on your browser:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;code&gt;This is sample text inside code markup&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;kbd&gt;This is sample text inside kbd markup&lt;/kbd&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;samp&gt;This is sample text inside samp markup&lt;/samp&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;tt&gt;This is sample text inside tt markup&lt;/tt&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;../index.html&quot;&gt;main page&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.unicode.org/versions/Unicode4.0.0/ch06.pdf&quot; title=&quot;Writing Systems and Punctuation&quot; type=&quot;application/pdf&quot;&gt;Unicode Standard, chapter&amp;nbsp;6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a text paragraph that contains some inline links. Generally, inline links (as opposite to e.g. links lists) are problematic from the &lt;a href=&quot;http://www.useit.com&quot;&gt;usability&lt;/a&gt; perspective, but they may have use as “incidental”, less relevant links. See the document &lt;cite&gt;&lt;a href=&quot;links.html&quot;&gt;Links Want To Be Links&lt;/a&gt;&lt;/cite&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Forms&lt;/h2&gt;
+
+&lt;form action=&quot;http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi&quot;&gt;
+&lt;div&gt;&lt;input name=&quot;hidden field&quot; type=&quot;hidden&quot; value=&quot;42&quot; /&gt; This is a form containing various fields (with some initial values (defaults) set, so that you can see how input text looks like without actually typing it):&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;but&quot;&gt;Button:&lt;button id=&quot;but&quot; name=&quot;foo&quot; type=&quot;submit&quot; value=&quot;bar&quot;&gt;A cool&lt;br /&gt;
+	button&lt;/button&gt;&lt;/label&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f0&quot;&gt;Reset button: &lt;input id=&quot;f0&quot; name=&quot;reset&quot; type=&quot;reset&quot; value=&quot;Reset&quot; /&gt;&lt;/label&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f1&quot;&gt;Single-line text input field: &lt;input id=&quot;f1&quot; name=&quot;text&quot; size=&quot;20&quot; type=&quot;text&quot; value=&quot;Default text.&quot; /&gt;&lt;/label&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f2&quot;&gt;Multi-line text input field (textarea):&lt;/label&gt;&lt;br /&gt;
+	&lt;textarea cols=&quot;20&quot; id=&quot;f2&quot; name=&quot;textarea&quot; rows=&quot;2&quot;&gt;Default text.
+&lt;/textarea&gt;&lt;/div&gt;
+
+&lt;div&gt;The following two radio buttons are inside a &lt;dfn&gt;fieldset&lt;/dfn&gt; element with a &lt;dfn&gt;legend&lt;/dfn&gt;:&lt;/div&gt;
+
+&lt;fieldset&gt;&lt;legend&gt;Legend&lt;/legend&gt;
+
+&lt;div&gt;&lt;label for=&quot;f3&quot;&gt;&lt;input id=&quot;f3&quot; name=&quot;radio&quot; type=&quot;radio&quot; value=&quot;1&quot; /&gt; Radio button 1&lt;/label&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f4&quot;&gt;&lt;input checked=&quot;checked&quot; id=&quot;f4&quot; name=&quot;radio&quot; type=&quot;radio&quot; value=&quot;2&quot; /&gt; Radio button 2 (initially checked)&lt;/label&gt;&lt;/div&gt;
+&lt;/fieldset&gt;
+
+&lt;fieldset&gt;&lt;legend&gt;Check those that apply&lt;/legend&gt;
+
+&lt;div&gt;&lt;label for=&quot;f5&quot;&gt;&lt;input id=&quot;f5&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot; /&gt; Checkbox 1&lt;/label&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f6&quot;&gt;&lt;input checked=&quot;checked&quot; id=&quot;f6&quot; name=&quot;checkbox2&quot; type=&quot;checkbox&quot; /&gt; Checkbox 2 (initially checked)&lt;/label&gt;&lt;/div&gt;
+&lt;/fieldset&gt;
+
+&lt;div&gt;&lt;label for=&quot;f10&quot;&gt;A &lt;dfn&gt;select&lt;/dfn&gt; element with &lt;dfn&gt;size=&quot;1&quot;&lt;/dfn&gt; (dropdown box): &lt;select id=&quot;f10&quot; name=&quot;select1&quot; size=&quot;1&quot;&gt;&lt;option&gt;one&lt;/option&gt;&lt;option selected=&quot;selected&quot;&gt;two (default)&lt;/option&gt;&lt;option&gt;three&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f11&quot;&gt;A &lt;dfn&gt;select&lt;/dfn&gt; element with &lt;dfn&gt;size=&quot;3&quot;&lt;/dfn&gt; (listbox):&lt;/label&gt;&lt;br /&gt;
+	&lt;select id=&quot;f11&quot; name=&quot;select2&quot; size=&quot;3&quot;&gt;&lt;option&gt;one&lt;/option&gt;&lt;option selected=&quot;selected&quot;&gt;two (default)&lt;/option&gt;&lt;option&gt;three&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;label for=&quot;f99&quot;&gt;Submit button: &lt;input id=&quot;f99&quot; name=&quot;submit&quot; type=&quot;submit&quot; value=&quot;Just a test&quot; /&gt;&lt;/label&gt;&lt;/div&gt;
+&lt;/form&gt;
+
+&lt;h2&gt;Tables&lt;/h2&gt;
+
+&lt;p&gt;The following table has a caption. The first row and the first column contain table header cells (&lt;dfn&gt;th&lt;/dfn&gt; elements) only; other cells are data cells (&lt;dfn&gt;td&lt;/dfn&gt; elements), with &lt;dfn&gt;align=&quot;right&quot;&lt;/dfn&gt; attributes:&lt;/p&gt;
+
+&lt;table summary=&quot;Each row names a Nordic country and specifies its total area and land area, in square kilometers&quot;&gt;
+	&lt;caption&gt;Sample table: Areas of the Nordic countries, in sq km&lt;/caption&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;col&quot;&gt;Country&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Total area&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Land area&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Denmark&lt;/th&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;43,070&lt;/td&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;42,370&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Finland&lt;/th&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;337,030&lt;/td&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;305,470&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Iceland&lt;/th&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;103,000&lt;/td&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;100,250&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Norway&lt;/th&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;324,220&lt;/td&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;307,860&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Sweden&lt;/th&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;449,964&lt;/td&gt;
+			&lt;td align=&quot;RIGHT&quot;&gt;410,928&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Character test&lt;/h2&gt;
+
+&lt;p&gt;The following table has some sample characters with annotations. If the browser’s default font does not contain all of them, they may get displayed using backup fonts. This may cause stylistic differences, but it should not prevent the characters from being displayed at all.&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Char.&lt;/th&gt;
+			&lt;th&gt;Explanation&lt;/th&gt;
+			&lt;th&gt;Notes&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;ê&lt;/td&gt;
+			&lt;td&gt;e with circumflex&lt;/td&gt;
+			&lt;td&gt;Latin 1 character, should be ok&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;—&lt;/td&gt;
+			&lt;td&gt;em dash&lt;/td&gt;
+			&lt;td&gt;Windows Latin 1 character, should be ok, too&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Ā&lt;/td&gt;
+			&lt;td&gt;A with macron (line above)&lt;/td&gt;
+			&lt;td&gt;Latin Extended-A character, not present in all fonts&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Ω&lt;/td&gt;
+			&lt;td&gt;capital omega&lt;/td&gt;
+			&lt;td&gt;A Greek letter&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;−&lt;/td&gt;
+			&lt;td&gt;minus sign&lt;/td&gt;
+			&lt;td&gt;Unicode minus&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;⌀&lt;/td&gt;
+			&lt;td&gt;diameter sign&lt;/td&gt;
+			&lt;td&gt;relatively rare in fonts&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;Hyphenation&lt;/h2&gt;
+
+&lt;p&gt;In the following, a width setting should cause some hyphenation, depending on support to various methods of hyphenation.&lt;/p&gt;
+
+&lt;h3&gt;CSS-based hyphenation&lt;/h3&gt;
+
+&lt;p class=&quot;limited hyphens&quot;&gt;Until recently the great majority of naturalists believed that species were immutable productions, and had been separately created. This view has been ably maintained by many authors.&lt;/p&gt;
+
+&lt;h3&gt;JavaScript-driven hyphenation&lt;/h3&gt;
+
+&lt;p class=&quot;limited hyphenate&quot;&gt;Until recently the great majority of naturalists believed that species were immutable productions, and had been separately created. This view has been ably maintained by many authors.&lt;/p&gt;
+
+&lt;h3&gt;Explicit hyphenation hints (soft hyphens)&lt;/h3&gt;
+
+&lt;p class=&quot;limited&quot;&gt;Un­til re­cent­ly the great ma­jor­i­ty of nat­u­ral­ists be­lieved that spe­cies were im­mu­ta­ble pro­duc­tions, and had been sep­a­rate­ly cre­at­ed. This view has been ably main­tain­ed by many au­thors.&lt;/p&gt;
+
+&lt;hr title=&quot;Information about this document&quot; /&gt;
+&lt;address&gt;&lt;a href=&quot;../personal.html&quot; hreflang=&quot;en&quot; lang=&quot;fi&quot;&gt;Jukka Korpela&lt;/a&gt;&lt;/address&gt;
+
+&lt;div&gt;&lt;a href=&quot;../iso8601.html&quot; title=&quot;ISO 8601, the date and time representation standard&quot;&gt;Date&lt;/a&gt; of creation: 2000-09-15. Last update: 2013-03-21.&lt;/div&gt;
+]]></content><private></private><author><![CDATA[kevinf_admin]]></author></item>
