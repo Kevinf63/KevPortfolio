@@ -149,7 +149,7 @@
 	}
 	
 	#container p, #container ul,  #container ol, #container pre,  #container h1, #container h2,
-	#container h3, #container h4, #container h5, #container blockquote{
+	#container h3, #container h4, #container h5, #container h6, #container dl, #container blockquote{
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
@@ -368,7 +368,7 @@
 	}
 	
 	#container p, #container ul,  #container ol, #container pre,  #container h1, #container h2,
-	#container h3, #container h4, #container h5, #container blockquote{
+	#container h3, #container h4, #container h5, #container h6, #container dl, #container blockquote{
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
@@ -496,7 +496,8 @@
 }
 
 .options-grid p, .options-grid pre, .options-grid ul, .options-grid ol, .options-grid h1, 
-.options-grid h2, .options-grid h3, .options-grid h4 {
+.options-grid h2, .options-grid h3, .options-grid h4, .options-grid h5, .options-grid h6, 
+.options-grid dl {
 	width: 100%;
 	margin: auto auto;
 	color: white;

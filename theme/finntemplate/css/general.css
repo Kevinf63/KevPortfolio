@@ -222,6 +222,44 @@ code:before {
 	margin-right: 0.15em;
 }
 
+ dl {
+    background: #f0f0f0;
+    border-left: 10px solid #2ecc71;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    padding: 0.5em;
+  }
+  
+  dl:before {
+        display: block;
+	color: #bbb;
+	content: "Definition List\A";
+	font-size: 1.2em;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-bottom: 0.5em;
+}
+
+  dt {
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+  }
+  
+  dt:after {
+    content: ":";
+  }
+  
+  dd {
+    margin: 0;
+    padding: 0 0 1em 0;
+  }
+  
+  dd:last-child {
+    padding: 0 0 0.5em 0;
+  }
+
 /************************************/
 /* HEADER DIV DESIGN                */
 /************************************/
