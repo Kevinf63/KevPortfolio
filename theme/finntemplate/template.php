@@ -99,7 +99,7 @@ $themeurl = get_theme_url($echo);
                     </div>
 
                     <div id="horizon-logo">
-                        <img src="<?php echo $themeurl ?>/images/logo_banner.jpg" width="466" height="123" alt="Kevin Finnegan Logo" /> 
+                        <img src="<?php echo $themeurl ?>/images/logo_banner.png" width="930" height="210" alt="Kevin Finnegan Logo" /> 
                     </div>
 
                     <ul id="navibar">
