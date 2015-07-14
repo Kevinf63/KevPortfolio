@@ -54,14 +54,14 @@ DirectoryIndex index.php
 
  # Usually RewriteBase is just '/', but 
  # replace it with your subdirectory path
- RewriteBase /kevportfolio/
+ RewriteBase **PATH**
 
  # News Manager:
- RewriteRule ^blog/tag/([^/.]+)/page/([^/.]+)/?$ index.php?id=blog&tag=$1&page=$2 [L]
- RewriteRule ^blog/tag/([^/.]+)/?$ index.php?id=blog&tag=$1 [L]
- RewriteRule ^blog/post/([^/.]+)/?$ index.php?id=blog&post=$1 [L]
- RewriteRule ^blog/page/([^/.]+)/?$ index.php?id=blog&page=$1 [L]
- RewriteRule ^blog/archive/([^/.]+)/?$ index.php?id=blog&archive=$1 [L]
+ RewriteRule ^**PREFIX**tag/([^/.]+)/page/([^/.]+)/?$ index.php?**PAGE**tag=$1&page=$2 [L]
+ RewriteRule ^**PREFIX**tag/([^/.]+)/?$ index.php?**PAGE**tag=$1 [L]
+ RewriteRule ^**PREFIX**post/([^/.]+)/?$ index.php?**PAGE**post=$1 [L]
+ RewriteRule ^**PREFIX**page/([^/.]+)/?$ index.php?**PAGE**page=$1 [L]
+ RewriteRule ^**PREFIX**archive/([^/.]+)/?$ index.php?**PAGE**archive=$1 [L]
  # end News Manager
 
  RewriteCond %{REQUEST_FILENAME} !-f
